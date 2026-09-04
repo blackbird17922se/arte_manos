@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Arte en Tus Manos</title>
+
+   <link rel="stylesheet" href="estilos.css">
+ </head>
+ 
+ <body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Arte en Tus Manos
+            </div>
+
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#personaliza">Personaliza</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    
+    
+    <main>
+
+        <section id="inicio" class="hero">
+
+           <div class="hero-contenido">
+
+              <p class="subtitulo"></p>
+                    Artesanía hecha con amor
+            </p>
+
+            <h1>
+                Arte en Tus Manos 
+            </h1>
+
+            <p>
+              Creamos productos antesanales personalizados
+              para convertir tus ideas en piezas únicas.
+            </p>
+            <a href="#productos" class="boton">
+                Ver productos
+            </a>
+
+         </div>
+         
+        </section>
+
+
+        <section id="productos" class="productos">
+
+            <div class="titulo-seccion">
+                <p>Descubre nuestra colección</p>
+
+                 <h2>
+                     Productos artesanales
+                 </h2>
+             </div>
+             
+             
+              <div class="contenedor-productos">
+
+                  <article class="producto">
+                   
+                   <div class="producto-imagen">
+
+                   </div>
+                   
+                   <h3>
+                     Decoración personalizada
+                   </h3>
+
+                   <p>
+                     Productos artesanales decorativos
+                        elaborados y personalizados según
+                        tus gustos.
+                   </p>
+
+                   <span class="precio">
+                        Desde $35.000
+                   </span>
+
+                   <button onclick="seleccionarProducto('Decoración personalizada')">
+                        Personalizar
+                   </button>
+
+                  </article>
+                  
+                  <article class="producto">
+                    <div class="producto-imagen">
+
+                    </div>
+
+                    <h3>
+                        Regalos artesanales 
+                    </h3>
+
+                    <p>
+                      Detalles especiales hechos a mano
+                        para regalar en momentos importantes.  
+                    </p>
+
+                     <span class="precio">
+                        Desde $40.000
+                     </span>
+
+                     <button onclick="seleccionarProducto('Regalo artesanal')">
+                        Personalizar
+                     </button>
+                     
+                   </article>
+                   
+                   <article class="producto">
+
+                      <div class="producto-imagen">
+
+                      </div>
+
+                      <h3>
+                          Piezas decorativas
+                      </h3>
+
+                      <p>
+                        Creaciones artesanales para darle
+                        un toque especial a tus espacios.
+                     </p>
+
+                     <span class="precio">
+                        Desde $30.000
+                     </span>
+
+                     <button onclick="seleccionarProducto('Pieza decorativa')">
+                        Personalizar
+                    </button>
+
+                    </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="personaliza" class="personaliza">
+
+        <div class="titulo-seccion">
+
+                <p>Hazlo único</p>
+
+                <h2>
+                    Personaliza tu producto
+                </h2>
+
+            </div>
+
+
+            <form id="formularioPedido">
+
+                <label for="nombre">
+                    Nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Escribe tu nombre"
+                    required>
+
+
+                <label for="producto">
+                    Producto
+                </label>
+
+                <select id="producto">
+
+                    <option value="">
+                        Selecciona un producto
+                    </option>
+
+                    <option value="Decoración personalizada">
+                        Decoración personalizada
+                    </option>
+
+                    <option value="Regalo artesanal">
+                        Regalo artesanal
+                    </option>
+
+                    <option value="Pieza decorativa">
+                        Pieza decorativa
+                    </option>
+
+                </select>
+
+
+                <label for="colores">
+                    Colores que deseas
+                </label>
+
+                <input
+                    type="text"
+                    id="colores"
+                    placeholder="Ejemplo: beige, café y verde">
+
+                 
+                    
+                 <label for="mensaje">
+                    Describe tu idea
+                </label>
+                
+                <textarea
+                    id="mensaje"
+                    rows="5"
+                    placeholder="Cuéntanos cómo quieres tu producto"
+                ></textarea>
+
+
+                <button type="submit">
+                    Enviar solicitud
+                </button>
+
+            </form>
+
+        </section>
+
+
+         <section id="nosotros" class="nosotros">
+
+            <div>
+
+                <p class="subtitulo">
+                    Conoce nuestro proyecto
+                  </p>
+
+                <h2>
+                    Sobre Arte en Tus Manos
+                </h2>
+
+                <p>
+                    Arte en Tus Manos es un emprendimiento
+                    dedicado a la creación de productos
+                    artesanales personalizados y decorativos.
+                </p>
+
+                <p> 
+                    Nuestro propósito es transformar ideas
+                    y momentos especiales en productos
+                    elaborados con creatividad y dedicación.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section id="contacto" class="contacto">
+
+            <div class="titulo-seccion">
+
+                <p>Estamos para ayudarte</p>
+
+                <h2>
+                    Contáctanos
+                </h2>
+
+            </div>
+
+            <p> 
+                <h2>
+                    Contáctanos
+                </h2>
+
+            </div>
+
+            <p>
+                WhatsApp: 3043597087
+            </p>
+
+            <p>
+                 Correo: artesanias@arteentusmanos.com
+            </p>
+
+            <p>
+                 Chía, Cundinamarca
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Arte en Tus Manos
+        </p>
+
+        <p>
+            Hecho con creatividad y dedicación.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
